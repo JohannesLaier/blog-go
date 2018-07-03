@@ -1,6 +1,6 @@
 # Tiny Blog in Google Go #
 
-This project contains a tiny blog system written in golang.
+This project contains a tiny blog system written in golang. This project was developed as part of the go programming course at the DHBW Mosbach.
 
 ### How to set up? ###
 
