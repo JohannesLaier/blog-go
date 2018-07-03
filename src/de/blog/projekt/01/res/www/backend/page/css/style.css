@@ -1,0 +1,107 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+/*
+ * Typography
+ */
+
+h1 {
+  padding-bottom: 9px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.font-normal {
+  font-weight: normal;
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+  position: fixed;
+  top: 51px;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 20px 0;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  border-right: 1px solid #eee;
+}
+
+.sidebar .nav {
+  margin-bottom: 20px;
+}
+
+.sidebar .nav-item {
+  width: 100%;
+}
+
+.sidebar .nav-item + .nav-item {
+  margin-left: 0;
+}
+
+.sidebar .nav-link {
+  border-radius: 0;
+}
+
+/*
+ * Dashboard
+ */
+
+/* Placeholders */
+.placeholders {
+  padding-bottom: 3rem;
+}
+
+.placeholder img {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.profile {
+  color: #fff !important;
+  text-decoration: none !important;
+  margin-right: 15px;
+}
+
+.profile img {
+  border-radius: 20px;
+}
+
+.padding20 {
+  padding: 20px 0;
+}
+
+.padding50 {
+  padding: 50px 0;
+}
+
+.margin10 {
+  margin: 10px 0;
+}
+
+.margin5 {
+  margin: 5px 0;
+}
+
+.center-block {
+  margin: 0 auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+#logo {
+  height: 35px;
+  margin-top: -10px;
+}
